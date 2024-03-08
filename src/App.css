@@ -1,0 +1,47 @@
+/* LoginForm.css */
+.maincontainer .login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full height of the viewport */
+}
+
+.maincontainer .login-container .login-form {
+  width: 300px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.maincontainer .login-container .login-form .form-group {
+  margin-bottom: 15px;
+}
+
+.maincontainer .login-container .login-form .form-group label {
+  font-weight: bold;
+}
+
+.maincontainer .login-container .login-form .form-group input[type="text"],
+.maincontainer .login-container .login-form .form-group input[type="email"],
+.maincontainer .login-container .login-form .form-group input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.maincontainer .login-form button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.maincontainer .login-form button:hover {
+  background-color: #0056b3;
+}
